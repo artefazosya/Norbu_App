@@ -2,7 +2,7 @@
 ## Product Goal
 What does Notbu promise to the user? Help control stress
 
-Behaviour -> Barrier -> Benefit
+Behaviour -> Barrier -> Benefit h
 
 
 ## First open/Onboarding
