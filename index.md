@@ -3,7 +3,7 @@
 <img src="What worries you.jfif" alt="drawing" width="200"/>
 
 ## Event funnel
-{% event_funnel_mbsc.html %}
+{% include event_funnel_mbsc.html %}
 
 Idea: less barriers between intention to exercise and the exercise itself: more screens/clicks - more opportunities for the user to change one's mind.
 Recomendation: Remove one screen between choosing the exercise and starting the exercise. There should be just 2 clicks: choose the exercise and start the exercise.
