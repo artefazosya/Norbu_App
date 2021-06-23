@@ -1,6 +1,6 @@
 # Increase Retention rate
 ## First open/Onboarding
-<img src="What worries you.jfif" alt="drawing" width="800"/>
+<img src="What worries you.jfif" alt="drawing" width="200"/>
 ![Image](src)
 
 ## Event funnel
