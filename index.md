@@ -2,14 +2,14 @@
 ## Product Goal
 What does Notbu promise to the user? Help control stress
 
-Behaviour -> Barrier -> Benefit h
+Behaviour -> Barrier -> Benefit 
 
 
 ## First open/Onboarding
 <img src="What worries you.jfif" alt="drawing" width="200"/>
 
 ## Event funnel
-{% include event_funnel_breathe.html.html %}
+{% include event_funnel_breathe.html %}
 
 8% of people do not proceed from the exercise screen to the exercise itself.
 
