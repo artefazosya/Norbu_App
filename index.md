@@ -23,6 +23,12 @@ Share of users who remove the app is around 50% which corresponds to average uni
 I decided to consider users who haven't used an app for more than 10 days - inactive users.
 There are around 30% of inactive users.
 
+## Geographical distribution
+{% include geo_distr.html %}
+{% include users_geo_distr.html %}
+
+
+
 
 [Link](url) 
 ```
