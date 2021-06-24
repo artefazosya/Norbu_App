@@ -19,7 +19,7 @@ Behaviour -> Barrier -> Benefit
 or
  "what would you like to achieve" - "Improve sleep"
 
-- Reduce decision fatigue, simplify behavior: add default options here and on exercise screen, e.g. "training of the day".
+- Reduce decision fatigue, simplify behavior: add default options here and on an exercise screen, e.g. "training of the day".
 
 ## Event funnel
 Most popular exercices are: breathing and ball game. Let's investigate breathing exercise:
@@ -31,12 +31,18 @@ Most popular exercices are: breathing and ball game. Let's investigate breathing
 - There should be less barriers between intention to exercise and the exercise itself: more screens/clicks - more opportunities for the user to change one's mind. Remove one screen between choosing the exercise and starting the exercise. There should be just 2 clicks: choose the exercise and start the exercise.
 - 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection: "". [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
 
+## Retention
+<img src="retention.png" alt="drawing" width="200"/>
+
+Average retention rate seems pretty normal. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
+
 
 ## App removal
-Share of users who remove the app is around 50% which corresponds to average uninstall rate in mobile app industry. [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why I did not dig into reasons of app removal, as the rate is pretty normal. I think it's better to concentrate on inactive users - they might still return to the app.
+Share of users who remove the app is around 50% which corresponds to average uninstall rate in mobile app industry. [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
+We would suggest to subscribe a new user to the emails by default, interesting email might return a user, who removed an app. 
 
 ## Inactive users
-I decided to consider users who haven't used an app for more than 10 days, nut haven't uninstalled the app - to be inactive users.
+I decided to consider users who haven't used an app for more than 10 days, but haven't uninstalled the app - to be inactive users.
 There are around 30% of inactive users.
 
 ## Geographical distribution
@@ -48,6 +54,16 @@ Germany and Iran take are responsible for 50% of all unique users.
 
 {% include cities_distr.html %}
 The most active city is Tehran.
+
+## Traffic sources
+{% include traffic_distr.html %}
+
+There are just two significant traffic sources for now. 
+- Probably, it will make sense to **choose another potentially successful traffic source to develop**: e.g. social networks. 
+- Plus, improve existing sources, for example, **perform Google Play Optimization (if not yet)**. Currently, not all key words result in finding Norbu app: meditation, mindfullness, breathing do not work, stress/stress control works.
+- We would recommend to **start a referral program**, invites with promocodes as it could be a new channel of traffic, plus - social connection promotes retention.
+
+
 
 
 
