@@ -54,7 +54,7 @@ We decided to consider users who haven't used an app for more than 10 days, but 
 Middle East and Europe are leading regions in number of unique users.
 
 {% include users_geo_distr.html %}
-Germany and Iran are responsible for 50% of all unique users.
+Germany and Iran are responsible for 50% of all unique users. It happens that Norbu app is free in Iran, that explains its popularity.
 
 {% include cities_distr.html %}
 The most active city is Tehran.
@@ -72,8 +72,7 @@ There are just two significant traffic sources for now.
 
 ## Conclusion
 1. Retention and uninstall rate are pretty normal comparing with other mobile apps. Several different strategies to improve retention were proposed.
-2. It would be interesting to learn why Iran and Germany have so many Norbu users: was this a result of a marketing campaign or the way Google Play positions Norbu app in these countries?
-3. We would recommend to diversify OS, traffic sources and attract users from different countries.
+2. We would recommend to diversify OS, traffic sources and attract users from different countries.
 
 
 
