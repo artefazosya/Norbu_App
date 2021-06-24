@@ -33,12 +33,12 @@ Let's investigate the breathing exercise:
 - 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection: "". [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
 
 ## Retention
-<img src="retention.png" alt="drawing" width="200"/>
+<img src="_includes/retention.png" alt="drawing" width="200"/>
 
 **Average retention rate is pretty normal**. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
 
 ## LTV
-<img src="ltv.png" alt="drawing" width="200"/>
+<img src="_includes/ltv.png" alt="drawing" width="200"/>
 
 
 ## App removal
