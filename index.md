@@ -1,7 +1,8 @@
 # Norbu app analysis
 
 ## Project's goal
-Provide recommendations on retention rate increase based on app data analysis. Data available: user activity logs, user ltv, geography, devices, traffic source.
+Provide recommendations to increase retention rate based on app data analysis. 
+Data available: user activity logs, user ltv, geography, devices, traffic source.
 
 ## Product 
 Norbu is a healthcare mobile app, which provides different techniques to cope with stress: meditation, breathing, games to improve focus. The app profits from paid subscriptions, bought by users.
@@ -26,27 +27,25 @@ Let's investigate the breathing exercise:
 8% of people do not proceed from the exercise screen to the exercise itself.
 
 - There should be **less barriers between intention to exercise and the exercise itself**: more screens/clicks - more opportunities for the user to change one's mind. Remove one screen between choosing the exercise and starting the exercise. There should be just 2 clicks: choose the exercise and start the exercise.
-- 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection: "". [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
+- 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection. [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
 
 ## Retention
-<img src="retention.png" alt="drawing" width="200"/>
+<img src="retention.png" alt="drawing" width="500"/>
 
 **Average retention rate is pretty normal**. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
 
 ## LTV
-<img src="ltv.png" alt="drawing" width="200"/>
+<img src="ltv.png" alt="drawing" width="500"/>
 
 ## User activity
 {% include users_events.html %}
 Overall number of daily events correlates with the number of daily unique users, which is good, as there are no heavy-users, whom it would be risky to lose.
 
 ## App removal
-Share of users who remove the app is around 50% which corresponds to average uninstall rate in the mobile app industry [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates)
-That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
-We would **suggest to subscribe a new user to the emails by default**, interesting email might return a user, who removed an app. 
+Share of users who remove the app is around 50% which corresponds to average uninstall rate in the mobile app industry [Reference](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why we did not dig into reasons of app removal, as the rate is pretty normal. We would **suggest to subscribe a new user to the emails by default**, interesting email might return a user, who has already removed an app. 
 
 ## Inactive users
-I decided to consider users who haven't used an app for more than 10 days, but haven't uninstalled the app - to be inactive users.
+We decided to consider users who haven't used an app for more than 10 days, but haven't uninstalled the app - to be inactive users.
 **There are around 30% of inactive users.**
 {% include inactivity.html %}
 
