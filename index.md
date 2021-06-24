@@ -22,23 +22,27 @@ or
 - Reduce decision fatigue, simplify behavior: add default options here and on an exercise screen, e.g. "training of the day".
 
 ## Event funnel
-Most popular exercices are: breathing and ball game. Let's investigate breathing exercise:
+Most popular exercices are: breathing and ball game. 
+Let's investigate the breathing exercise:
 
 {% include event_funnel_breathe.html %}
 
 8% of people do not proceed from the exercise screen to the exercise itself.
 
-- There should be less barriers between intention to exercise and the exercise itself: more screens/clicks - more opportunities for the user to change one's mind. Remove one screen between choosing the exercise and starting the exercise. There should be just 2 clicks: choose the exercise and start the exercise.
+- There should be **less barriers between intention to exercise and the exercise itself**: more screens/clicks - more opportunities for the user to change one's mind. Remove one screen between choosing the exercise and starting the exercise. There should be just 2 clicks: choose the exercise and start the exercise.
 - 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection: "". [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
 
 ## Retention
 <img src="retention.png" alt="drawing" width="200"/>
 
-Average retention rate seems pretty normal. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
+**Average retention rate is pretty normal**. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
+
+## LTV
+<img src="ltv.png" alt="drawing" width="200"/>
 
 
 ## App removal
-Share of users who remove the app is around 50% which corresponds to average uninstall rate in mobile app industry. [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
+Share of users who remove the app is around 50% which corresponds to average uninstall rate in the mobile app industry. [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
 We would suggest to subscribe a new user to the emails by default, interesting email might return a user, who removed an app. 
 
 ## Inactive users
@@ -62,6 +66,13 @@ There are just two significant traffic sources for now.
 - Probably, it will make sense to **choose another potentially successful traffic source to develop**: e.g. social networks. 
 - Plus, improve existing sources, for example, **perform Google Play Optimization (if not yet)**. Currently, not all key words result in finding Norbu app: meditation, mindfullness, breathing do not work, stress/stress control works.
 - We would recommend to **start a referral program**, invites with promocodes as it could be a new channel of traffic, plus - social connection promotes retention.
+
+## OS and devices
+Android OS and mobile phones are the most popular choices. It would be interesting to know why the app isn't yet popular on iOS? is it new or lacks some functionality? 
+
+## Conclusion
+1. Retention and uninstall rate are pretty normal comparing with other mobile apps. Several different strategies to improve retention were proposed.
+2. It would be interesting to learn why Iran and Germany have so many Norbu users: was this a result of a marketing campaign or the way Google Play positions Norbu app in these countries?
 
 
 
