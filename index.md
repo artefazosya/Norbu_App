@@ -41,8 +41,14 @@ There are around 30% of inactive users.
 
 ## Geographical distribution
 {% include geo_distr.html %}
+Middle East and Europe are leading regions in number of unique users.
 
 {% include users_geo_distr.html %}
+Germany and Iran take are responsible for 50% of all unique users.
+
+{% include cities_distr.html %}
+The most active city is Tehran.
+
 
 
 
