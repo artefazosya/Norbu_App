@@ -5,16 +5,12 @@ Provide recommendations on retention rate increase based on app data analysis. D
 
 ## Product 
 Norbu is a healthcare mobile app, which provides different techniques to cope with stress: meditation, breathing, games to improve focus. The app profits from paid subscriptions, bought by users.
-
 ### What does Norbu promise to the user? 
 Help control stress
 
-Behaviour -> Barrier -> Benefit 
-
-
 ## First open/Onboarding
 <img src="What worries you.jfif" alt="drawing" width="200"/>
-- Options do not correspond to the question, recommendations or question should be reformulated: 
+- Options do not correspond to the question, **recommendations or question should be reformulated**: 
  "what worries you" - "trouble falling asleep"
 or
  "what would you like to achieve" - "Improve sleep"
@@ -33,28 +29,33 @@ Let's investigate the breathing exercise:
 - 30% of users who started breathing exersice do not finish it. Use in app messaging as an extrinsic motivation, e.g. praise for good effort or focus on the goal (which user selected during onboarding or smth general): "One step closer to your goals" or "Thank you for taking care of oneself". Or promote social connection: "". [Reference](https://www.braze.com/resources/articles/in-app-message-best-practices)
 
 ## Retention
-<img src="_includes/retention.png" alt="drawing" width="200"/>
+<img src="retention.png" alt="drawing" width="200"/>
 
 **Average retention rate is pretty normal**. Headspace (industry leader): By Day 30 has average retention percentages around 8%. [Reference](https://www.theneura.com/headspace-mobile-engagement-strategy/)
 
 ## LTV
-<img src="_includes/ltv.png" alt="drawing" width="200"/>
+<img src="ltv.png" alt="drawing" width="200"/>
 
+## User activity
+{% include users_events.html %}
+Overall number of daily events correlates with the number of daily unique users, which is good, as there are no heavy-users, whom it would be risky to lose.
 
 ## App removal
-Share of users who remove the app is around 50% which corresponds to average uninstall rate in the mobile app industry. [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates). That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
-We would suggest to subscribe a new user to the emails by default, interesting email might return a user, who removed an app. 
+Share of users who remove the app is around 50% which corresponds to average uninstall rate in the mobile app industry [Source](https://www.mobileappdaily.com/reduce-mobile-app-uninstall-rates)
+That's why I did not dig into reasons of app removal, as the rate is pretty normal. 
+We would **suggest to subscribe a new user to the emails by default**, interesting email might return a user, who removed an app. 
 
 ## Inactive users
 I decided to consider users who haven't used an app for more than 10 days, but haven't uninstalled the app - to be inactive users.
-There are around 30% of inactive users.
+**There are around 30% of inactive users.**
+{% include inactivity.html %}
 
 ## Geographical distribution
 {% include geo_distr.html %}
 Middle East and Europe are leading regions in number of unique users.
 
 {% include users_geo_distr.html %}
-Germany and Iran take are responsible for 50% of all unique users.
+Germany and Iran are responsible for 50% of all unique users.
 
 {% include cities_distr.html %}
 The most active city is Tehran.
@@ -68,11 +69,12 @@ There are just two significant traffic sources for now.
 - We would recommend to **start a referral program**, invites with promocodes as it could be a new channel of traffic, plus - social connection promotes retention.
 
 ## OS and devices
-Android OS and mobile phones are the most popular choices. It would be interesting to know why the app isn't yet popular on iOS? is it new or lacks some functionality? 
+**Android OS and mobile phones are the most popular choices**. It would be interesting to know why the app isn't yet popular on iOS? is it new or lacks some functionality? 
 
 ## Conclusion
 1. Retention and uninstall rate are pretty normal comparing with other mobile apps. Several different strategies to improve retention were proposed.
 2. It would be interesting to learn why Iran and Germany have so many Norbu users: was this a result of a marketing campaign or the way Google Play positions Norbu app in these countries?
+3. We would recommend to diversify OS, traffic sources and attract users from different countries.
 
 
 
