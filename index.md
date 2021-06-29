@@ -76,4 +76,4 @@ There are just two significant traffic sources for now.
 1. Retention and uninstall rate are pretty normal compared with other mobile apps. Several different strategies to improve retention are proposed above.
 2. We would recommend diversifying OS, traffic sources and attracting users from different countries.
 3. We have noticed that app navigation is a bit puzzling and there are multiple ways to get to one exercise. As event funnels show many users get lost and do not finish chosen exercises. We suggest working with a UX specialist to simplify app navigation. This will also allow us to understand when and why users are lost during the app data analysis in the future.
-4. We would advise to improve data collection: get more information about users (if they approve), e.g. age, gender, stress reasons. 
+4. We would advise to improve data collection: get more information about users (if they approve), e.g. age, gender, stress reasons.  
