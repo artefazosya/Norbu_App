@@ -13,15 +13,6 @@ Norbu is a healthcare mobile app, which provides different techniques to cope wi
 ### What does Norbu promise to the user? 
 Help control stress
 
-## First open/Onboarding
-<img src="What worries you.jfif" alt="drawing" width="200"/>
-- Options do not correspond to the question, **recommendations or question should be reformulated**: 
- "what worries you" - "trouble falling asleep"
-or
- "what would you like to achieve" - "Improve sleep"
-
-- Reduce decision fatigue, simplify behavior: add default options here and on an exercise screen, e.g. "training of the day".
-
 ## Event funnel
 Most popular exercices are: breathing and ball game. 
 Let's take a look at one of the exercises: the breathing exercise
@@ -71,6 +62,16 @@ There are just two significant traffic sources for now.
 
 ## OS and devices
 **Android OS and mobile phones are the most popular choices**. It would be interesting to know why the app isn't yet popular on iOS? Is it new or lacks some functionality? 
+{% include devices.html %} {% include os.html %}
+
+## First open/Onboarding
+<img src="What worries you.jfif" alt="drawing" width="200"/>
+- Options do not correspond to the question, **recommendations or question should be reformulated**: 
+ "what worries you" - "trouble falling asleep"
+or
+ "what would you like to achieve" - "Improve sleep"
+
+- Reduce decision fatigue, simplify behavior: add default options here and on an exercise screen, e.g. "training of the day".
 
 ## Conclusion
 1. Retention and uninstall rate are pretty normal compared with other mobile apps. Several different strategies to improve retention are proposed above.
