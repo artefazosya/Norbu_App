@@ -1,8 +1,12 @@
 # Norbu app analysis
 
+## Instruments
+- SQL, BigQuery, Google Cloud
+- Python, Jupyter Notebook, GitHub Pages
+
 ## Project's goal
 Provide recommendations to increase retention rate based on app data analysis. 
-Data available: about 2 months of user activity logs, user ltv, geography, devices, traffic source.
+Data available: about 2 months of user activity logs, user ltv, geography, devices, traffic sources.
 
 ## Product 
 Norbu is a healthcare mobile app, which provides different techniques to cope with stress: meditation, breathing, games to improve focus. The app profits from paid subscriptions, bought by users.
@@ -49,10 +53,10 @@ We decided to consider users who haven't used an app for more than 10 days, but 
 
 ## Geographical distribution
 {% include geo_distr.html %}
-Middle East and Europe are leading regions in number of unique users.
+Middle East and Europe are leading regions in the number of unique users.
 
 {% include users_geo_distr.html %}
-Germany and Iran are responsible for 50% of all unique users. It happens that Norbu app is free in Iran, that explains its popularity there.
+Germany and Iran are responsible for 50% of all unique users. It happens that the Norbu app is free in Iran, which explains its popularity there.
 
 {% include cities_distr.html %}
 The most active city is Tehran.
@@ -62,18 +66,14 @@ The most active city is Tehran.
 
 There are just two significant traffic sources for now. 
 - Probably, it will make sense to **choose another potentially successful traffic source to develop**: e.g. social networks. 
-- Plus, improve existing sources, for example, **perform Google Play Optimization** (if not yet). Currently, not all key words result in finding Norbu app: searching "meditation", "mindfullness", "breathing" do not result in finding Norbu app, but searching "stress" or "stress control" - does.
-- We would recommend to **start a referral program**, invites with promocodes as it could be a new channel of traffic, plus - social connection promotes retention.
+- Plus, improve existing sources, for example, **perform Google Play Optimization** (if not yet). Currently, not all relevant keywords result in finding Norbu app: searching "meditation", "mindfulness", "breathing" do not result in finding Norbu app, but searching "stress" or "stress control" - does.
+- We would recommend to **start a referral program**, invites with promo codes as it could be a new channel of traffic, plus - social connection promotes retention.
 
 ## OS and devices
-**Android OS and mobile phones are the most popular choices**. It would be interesting to know why the app isn't yet popular on iOS? is it new or lacks some functionality? 
+**Android OS and mobile phones are the most popular choices**. It would be interesting to know why the app isn't yet popular on iOS? Is it new or lacks some functionality? 
 
 ## Conclusion
-1. Retention and uninstall rate are pretty normal comparing with other mobile apps. Several different strategies to improve retention are proposed below.
-2. We would recommend to diversify OS, traffic sources and attract users from different countries.
-
-
-
-
-
-
+1. Retention and uninstall rate are pretty normal compared with other mobile apps. Several different strategies to improve retention are proposed above.
+2. We would recommend diversifying OS, traffic sources and attracting users from different countries.
+3. We have noticed that app navigation is a bit puzzling and there are multiple ways to get to one exercise. As event funnels show many users get lost and do not finish chosen exercises. We suggest working with a UX specialist to simplify app navigation. This will also allow us to understand when and why users are lost during the app data analysis in the future.
+4. We would advise to improve data collection: get more information about users (if they approve), e.g. age, gender, stress reasons. Improve app logging
